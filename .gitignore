@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data (too big for GitHub; document how to download it in the README instead)
+data/raw/
+data/processed/
+*.csv
+
+# Secrets: API keys and database passwords never go on GitHub
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store

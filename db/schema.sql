@@ -1,0 +1,12 @@
+-- Part 2: Database schema
+--
+-- Goal: organize data into layers so raw data is never overwritten.
+--
+-- TODO:
+--   1. Create three schemas: raw, clean, features
+--   2. In raw: one table per Kaggle file you load in Part 1
+--   3. In clean: tables Part 3 builds (e.g. one row per game with tidy columns)
+--   4. In features: tables your models read from
+--   5. Add primary keys. Ask yourself what uniquely identifies a game.
+--
+-- Phase 2: add a table for live play-by-play events (a TimescaleDB hypertable).

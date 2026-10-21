@@ -1,0 +1,13 @@
+# Part 13: Infrastructure
+#
+# TODO (Phase 1): add a "postgres" service so the database runs with one command.
+#   - Use the official postgres image
+#   - Map port 5432
+#   - Read the username/password from your .env file
+#   - Add a volume so data survives restarts
+#
+# TODO (Phase 2): add "kafka" (or "redpanda") and swap postgres for TimescaleDB.
+#
+# TODO (Phase 3): add services for the dashboard and orchestrator.
+
+services: {}

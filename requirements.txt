@@ -1,0 +1,19 @@
+# Phase 1: install these now
+pandas
+numpy
+scikit-learn
+sqlalchemy
+psycopg[binary]
+python-dotenv
+pytest
+
+# Phase 1 (end): dashboard
+# streamlit
+
+# Phase 2: uncomment when you start streaming
+# kafka-python   (or confluent-kafka)
+# cbbpy
+
+# Phase 3: uncomment when you add orchestration and transforms
+# dagster
+# dbt-postgres
